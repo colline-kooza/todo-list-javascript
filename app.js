@@ -8,9 +8,9 @@ const savedData = JSON.parse(localStorage.getItem("user"));
 
 btn.addEventListener("click",function(){
   if(savedData===[]){
-    window.location.href = "signup.html";
-  }else{
     window.location.href = "login.html";
+  }else{
+    window.location.href = "signup.html";
 
   }
 })
