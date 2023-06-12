@@ -1,0 +1,30 @@
+#signupForm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #321E1E;
+    color: aliceblue;
+    padding: 2rem 4rem;
+    font-size: 23px;
+    border-radius: 10px;
+    input{
+        margin-top: 8px;
+        padding: 10px 30px;
+    }
+    .signupBtn{
+        background-color: black;
+        color: aliceblue;
+        border: none;
+        padding: 1rem;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        transform: scale(0.9);
+        transition: all 1s;
+        &:hover{
+        background-color: yellow;
+        color: black;
+        font-weight: bolder;
+        }
+    }
+}

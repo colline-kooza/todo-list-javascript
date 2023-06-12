@@ -1,0 +1,161 @@
+body {
+  background-color: #0E2954;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.main #Get-Started {
+  background-color: black;
+  padding: 23px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: aliceblue;
+  border: none;
+  outline: none;
+  transition: all 1s;
+  transform: scale(0.9);
+}
+.main #Get-Started:hover {
+  background-color: aqua;
+  color: black;
+  font-weight: bolder;
+}
+
+h1 {
+  font-size: 20px;
+  color: tomato;
+}
+
+#loginForm {
+  background-color: #22A699;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  font-size: 25px;
+  padding: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#loginForm input {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 15px;
+}
+#loginForm .submit {
+  width: 100%;
+}
+#loginForm .submit button {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  padding: 1rem;
+  font-size: 18px;
+  width: 20vh;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s;
+  transform: scale(0.9);
+}
+#loginForm .submit button:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: bolder;
+}
+
+#signupForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  background-color: #321E1E;
+  color: aliceblue;
+  padding: 2rem 4rem;
+  font-size: 23px;
+  border-radius: 10px;
+}
+#signupForm input {
+  margin-top: 8px;
+  padding: 10px 30px;
+}
+#signupForm .signupBtn {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+  transform: scale(0.9);
+  transition: all 1s;
+}
+#signupForm .signupBtn:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: bolder;
+}
+
+.main-container {
+  background-color: #79E0EE;
+  border-radius: 5px;
+  background-color: #E57C23;
+  font-size: 19px;
+  padding: 4rem;
+}
+@media (max-width: 500px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.main-container input {
+  padding: 15px 30px;
+  font-size: 20px;
+}
+.main-container button {
+  background-color: black;
+  border: none;
+  color: beige;
+  padding: 20px 30px;
+  font-size: 16px;
+  border-radius: 10px;
+  transition: all 1s;
+  transform: scale(0.9);
+}
+.main-container button:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.main-container .todo-container {
+  padding: 3rem;
+  background-color: #482121;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  background-color: #F2BED1;
+  font-size: 19px;
+  margin-top: 10px;
+  padding: 1rem;
+  border-radius: 5px;
+}/*# sourceMappingURL=style.css.map */

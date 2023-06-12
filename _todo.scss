@@ -1,0 +1,39 @@
+.main-container{
+    background-color: #79E0EE;
+    border-radius: 5px;
+    background-color: #E57C23;
+    font-size: 19px;
+    padding: 4rem;
+ @media (max-width:500px){
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+ }
+    input{
+    padding: 15px 30px;    
+    font-size: 20px;
+    }
+    button{
+        background-color: black;
+        border: none;
+        color: beige;
+        padding: 20px 30px;
+        font-size: 16px;
+         border-radius: 10px;
+         transition: all 1s;
+         transform: scale(0.9);
+         &:hover{
+         background-color: yellow;
+         color: black;
+         font-weight: bolder;
+         cursor: pointer;
+
+         }
+        
+        
+    }
+    .todo-container{
+        padding: 3rem;
+        background-color: #482121;
+     }
+}
