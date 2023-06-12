@@ -19,16 +19,16 @@ function addChanges(){
 
 }
 
-function displayData(todo){
+function displayData(todos){
     const main=document.querySelector(".todo-container")
+    main.innerHTML="";
 
 
     console.log(main)
-    todo.forEach((todo)=>{
+    todos.forEach((todo)=>{
     const createTemplate=`
      <p>${todo.content}</p>
  `;
- main.innerHTML="";
 
   main.insertAdjacentHTML("beforebegin", createTemplate)
     })

@@ -10,13 +10,9 @@ console.log(h1)
 loginForm.addEventListener("submit", function(event){
     event.preventDefault()
 
-    const emailLogin=document.getElementById("loginEmail")
-    const passwordLogin=document.getElementById("loginPassword")
-    const loginContent = {
-        emailLogin: emailLogin.value,
-        passwordLogin:passwordLogin.value
-      };
-
+    const emailLogin=document.getElementById("loginEmail").value
+    const passwordLogin=document.getElementById("loginPassword").value
+   
       if(savedData && savedData.email === emailLogin && savedData.password === passwordLogin){
         window.location.href = "todo.html";
     } else {
